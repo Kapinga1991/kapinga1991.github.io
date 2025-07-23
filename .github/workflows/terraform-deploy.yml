@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - 'infra/**'  # Only run if something in the 'infra' folder changes
   workflow_dispatch:  # Allow manual triggering
 
 env:
